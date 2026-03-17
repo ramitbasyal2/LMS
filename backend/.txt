@@ -1,0 +1,13 @@
+for reset password first we create a frontend and after that we go to the backend for further process
+and the we create a sendMail.js in config folder and after that we visit to the nodemailer website and see the further process and write the code in the sendmail.js as you can see that 
+and after that we do some change in usermodel as well like adding resetOtp , otpExpires and isOtpVerified so again after that process we go to the authController function for further process to add some controollers
+we create sendOtp funtion ,
+
+
+search with ai 
+- controller= searchController
+- searchWithAi.jsx = code lekhni masta after that searc with gemini fearture pani 
+rakhni
+visit= gemini api => google ai developers section signin/signup
+-quickStart-> install gemini api
+-> API_KEy = paste in .env (can get from overview page right-top)

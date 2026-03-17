@@ -1,0 +1,12 @@
+we use redux for courseSlice like
+first create a store , import courseSlice
+create courseSlice.js 
+write code to import the specifuc course of the particular creator
+use custom hooks for getCreatorCourse 
+and then import that in app.jsx
+now go to courses section to import the creator courses
+
+
+//There is a package name razorpay in npm through which we can add payment functionality
+
+for charts there is a package called Recharts
