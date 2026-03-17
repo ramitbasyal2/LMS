@@ -3,7 +3,7 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
-export const serverUrl = "http://localhost:4000"; //backend url
+export const serverUrl = "https://lms-73ek.onrender.com"; //backend url
 import { ToastContainer } from "react-toastify";
 import getCurrentUser from "./customHooks/useGetCurrentUser.js";
 import { useSelector } from "react-redux";
