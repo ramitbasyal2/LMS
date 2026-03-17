@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar'
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';
-import img_ai from '../assets/searchAi.png'
+import img_ai from '../assets/SearchAi.png'
 import { useSelector } from 'react-redux';
 import CourseCard from '../components/CourseCard';
 
