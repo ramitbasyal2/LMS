@@ -88,8 +88,12 @@ export const login = async (req,res)=>{
 
 export const logOut =  (req,res)=>{
      try {
-        res.clearCookie("token") // clear the cookie named token
-
+        res.clearCookie("token",{
+             httpOnly:true,
+             secure:true,
+             sameSite:"none",
+             maxAge: 7 * 24 * 60 * 60 * 1000
+        }); // clear the cookie named token
        return res.status(200).json({
          message:"LogOut Successfully"})
 
